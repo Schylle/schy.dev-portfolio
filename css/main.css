@@ -487,12 +487,12 @@ footer {
   transform: translateY(-3px);
 }
 /* Social SVG icons */
-.icon-github, .icon-linkedin, .icon-twitter, .icon-dribbble {
+.icon-github, .icon-linkedin, .icon-twitter{
   display: flex; align-items: center; justify-content: center;
   width: 18px; height: 18px;
   flex-shrink: 0;
 }
-.icon-github svg, .icon-linkedin svg, .icon-twitter svg, .icon-dribbble svg {
+.icon-github svg, .icon-linkedin svg{
   width: 18px; height: 18px;
   fill: currentColor;
 }

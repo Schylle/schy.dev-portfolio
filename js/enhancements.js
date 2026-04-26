@@ -67,7 +67,6 @@ document.addEventListener('DOMContentLoaded', () => {
         ctx.stroke();
       });
 
-      // filled area (with per-axis highlight)
       // Draw a subtle highlight wedge for hovered axis using arc
       if (hoveredIdx >= 0 && progress >= 1) {
         const hax = AXES[hoveredIdx];
@@ -293,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // MATRIX RAIN (playground experiment 3)
+  // MATRIX RAIN  
   const matrixCnv = document.getElementById('matrix-canvas');
   if (matrixCnv) {
     const mCtx = matrixCnv.getContext('2d');

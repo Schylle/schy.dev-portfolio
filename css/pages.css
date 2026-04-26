@@ -129,27 +129,6 @@
 }
 .project-link.code:hover { color: var(--fg); border-color: var(--primary); }
 
-/* coming soon overlay */
-.coming-soon-overlay {
-  position: absolute;
-  inset: 0;
-  background: oklch(0.05 0.02 250 / 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  backdrop-filter: blur(4px);
-  z-index: 5;
-}
-.coming-soon-badge {
-  background: var(--bg-glass);
-  border: 1px solid var(--border);
-  padding: 8px 20px;
-  border-radius: 50px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--fg);
-}
-
 /* hide/show cards */
 .project-card.hidden {
   display: none;

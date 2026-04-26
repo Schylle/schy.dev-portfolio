@@ -144,7 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!href || href.startsWith('#') || href.startsWith('mailto') || href.startsWith('http') || a.target === '_blank') return;
 
       a.addEventListener('click', e => {
-        // Don't intercept already-handled home links on home page
         const hrefFile = href.split('/').pop() || 'index.html';
         if ((hrefFile === 'index.html' || hrefFile === '') && (currentFile === 'index.html' || currentFile === '')) return;
 
